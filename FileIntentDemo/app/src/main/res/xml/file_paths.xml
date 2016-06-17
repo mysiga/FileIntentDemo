@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Context.getFilesDir().-->
+    <!--<files-path-->
+        <!--name="horizon"-->
+        <!--path="horizon/download/" />-->
+    <!--Environment.getExternalStorageDirectory()-->
+    <external-path
+        name="milin"
+        path="milin/download/" />
+    <!--getCacheDir()-->
+    <!--<cache-path-->
+        <!--name="horizon"-->
+        <!--path="horizon/download/" />-->
+</paths>

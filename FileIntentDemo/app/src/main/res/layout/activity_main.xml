@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wuming.fileintentdemo.MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载文件" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/download_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/open_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="file打开文件" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/open_file_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="context打开文件" />
+</LinearLayout>
